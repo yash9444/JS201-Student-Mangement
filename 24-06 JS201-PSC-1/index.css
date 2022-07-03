@@ -1,0 +1,67 @@
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    border: 4px groove black;
+    padding: 10px;
+}
+#anchor{
+    display: flex;
+    gap: 20px;
+}
+#batchDiv{
+    display: flex;
+    gap: 30px;
+}
+#batchDiv div{
+    border: 2px dashed black;
+    padding: 5px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    border: 2px dashed;
+    padding: 5px;
+}
+a:hover{
+    color: white;
+    background-color: teal;
+}
+form{
+    display: grid;
+    width: 25%;
+    gap: 20px;
+    margin: auto;
+    margin-top:30px;
+    border: 4px groove red;
+    padding: 30px;
+    border-radius: 10px;
+}
+input{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="submit"]{
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+@media all and (min-width:120px) and (max-width:870px){
+    form{
+        display: grid;
+        width: 55%;
+        gap: 20px;
+        margin: auto;
+        margin-top:30px;
+        border: 4px groove red;
+        padding: 30px;
+        border-radius: 10px;
+    }
+}
